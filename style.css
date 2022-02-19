@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+.Calculator
+{
+    position: relative;
+    display: grid;
+}
+.Calculator .value
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.Calculator span
+{
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+/* para mostrar el pulsor sobre los numero se hace con hover */
+.Calculator span:hover
+{
+    background: #45fa0eb0;
+    color: #204c62;
+    cursor: pointer;
+}
+
+.Calculator span.clear
+{
+    grid-column: span 2;
+    width: 120px;
+    background: #139dd3;
+}
+.Calculator span.plus
+{
+    grid-row: span 2;
+    height: 120px;
+}
+.Calculator span.equal
+{
+    background: #b6271d;
+}
