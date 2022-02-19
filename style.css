@@ -34,16 +34,16 @@ body
     display: grid;
     width: 60px;
     height: 60px;
-    color: #fff;
-    background: #0c2835;
+    color: rgb(1, 207, 63);
+    background: #152329;
     place-items: center;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgb(139, 157, 179);
 }
 /* para mostrar el pulsor sobre los numero se hace con hover */
 .Calculator span:hover
 {
-    background: #45fa0eb0;
-    color: #204c62;
+    background: #030b4eb0;
+    color: #e4e000;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ body
 {
     grid-column: span 2;
     width: 120px;
-    background: #139dd3;
+    background: #d313a3;
 }
 .Calculator span.plus
 {
@@ -60,5 +60,5 @@ body
 }
 .Calculator span.equal
 {
-    background: #b6271d;
+    background: #112786;
 }
